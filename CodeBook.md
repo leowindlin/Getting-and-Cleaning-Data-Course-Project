@@ -130,7 +130,7 @@ Use descriptive activity names to name the activities in the data set.
 
 In this exercise we will add a now collumn that describes the activities. For example, the activity called *1* in the *activitylab* variable actually represents *walking*. 
 
-The relation between these two variables is given in the *activity_labels.txt* file, so I read it and merge the activity description (*activitydesc*) through the *activitylab* variable using the ```join``` function from the *plyr* package. The data set *datasetmeanstd* is overwritten.
+The relation between these two variables is given in the *activity_labels.txt* file, so I read it and merge the activity description (*activitydesc*) through the *activitylab* variable using the ```join``` function from the ```plyr``` package. The data set *datasetmeanstd* is overwritten.
 
 ##Code
 ```
